@@ -11,6 +11,14 @@
 		3B5831322A01738100A001B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5831312A01738100A001B3 /* ContentView.swift */; };
 		3B5831342A01738200A001B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5831332A01738200A001B3 /* Assets.xcassets */; };
 		3B5831372A01738200A001B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5831362A01738200A001B3 /* Preview Assets.xcassets */; };
+		3B58313F2A0173B400A001B3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58313E2A0173B400A001B3 /* Home.swift */; };
+		3B5831412A0173BE00A001B3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5831402A0173BE00A001B3 /* DetailView.swift */; };
+		3B5831432A0173C800A001B3 /* BreedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5831422A0173C800A001B3 /* BreedCardView.swift */; };
+		3B5831462A0174FD00A001B3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5831452A0174FD00A001B3 /* APIManager.swift */; };
+		3B5831482A01753500A001B3 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5831472A01753500A001B3 /* Breed.swift */; };
+		3B58314A2A01755600A001B3 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5831492A01755600A001B3 /* DogViewModel.swift */; };
+		3B5831502A01860C00A001B3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3B58314F2A01860C00A001B3 /* Kingfisher */; };
+		3B58316E2A04528E00A001B3 /* TopRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58316D2A04528E00A001B3 /* TopRoundedRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,13 @@
 		3B5831312A01738100A001B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B5831332A01738200A001B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B5831362A01738200A001B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B58313E2A0173B400A001B3 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3B5831402A0173BE00A001B3 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3B5831422A0173C800A001B3 /* BreedCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedCardView.swift; sourceTree = "<group>"; };
+		3B5831452A0174FD00A001B3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3B5831472A01753500A001B3 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		3B5831492A01755600A001B3 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		3B58316D2A04528E00A001B3 /* TopRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoundedRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5831502A01860C00A001B3 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +67,9 @@
 		3B58312E2A01738100A001B3 /* DogBreedsImages */ = {
 			isa = PBXGroup;
 			children = (
+				3B5831442A0173E200A001B3 /* Model */,
+				3B58314B2A01758300A001B3 /* ViewModel */,
+				3B58313D2A0173AA00A001B3 /* View */,
 				3B58312F2A01738100A001B3 /* DogBreedsImagesApp.swift */,
 				3B5831312A01738100A001B3 /* ContentView.swift */,
 				3B5831332A01738200A001B3 /* Assets.xcassets */,
@@ -65,6 +84,34 @@
 				3B5831362A01738200A001B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B58313D2A0173AA00A001B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B58313E2A0173B400A001B3 /* Home.swift */,
+				3B5831402A0173BE00A001B3 /* DetailView.swift */,
+				3B5831422A0173C800A001B3 /* BreedCardView.swift */,
+				3B58316D2A04528E00A001B3 /* TopRoundedRectangle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B5831442A0173E200A001B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B5831452A0174FD00A001B3 /* APIManager.swift */,
+				3B5831472A01753500A001B3 /* Breed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B58314B2A01758300A001B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B5831492A01755600A001B3 /* DogViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +130,9 @@
 			dependencies = (
 			);
 			name = DogBreedsImages;
+			packageProductDependencies = (
+				3B58314F2A01860C00A001B3 /* Kingfisher */,
+			);
 			productName = DogBreedsImages;
 			productReference = 3B58312C2A01738100A001B3 /* DogBreedsImages.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +161,9 @@
 				Base,
 			);
 			mainGroup = 3B5831232A01738100A001B3;
+			packageReferences = (
+				3B58314E2A01860B00A001B3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 3B58312D2A01738100A001B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5831462A0174FD00A001B3 /* APIManager.swift in Sources */,
+				3B5831482A01753500A001B3 /* Breed.swift in Sources */,
+				3B5831432A0173C800A001B3 /* BreedCardView.swift in Sources */,
+				3B58314A2A01755600A001B3 /* DogViewModel.swift in Sources */,
+				3B58316E2A04528E00A001B3 /* TopRoundedRectangle.swift in Sources */,
 				3B5831322A01738100A001B3 /* ContentView.swift in Sources */,
+				3B5831412A0173BE00A001B3 /* DetailView.swift in Sources */,
+				3B58313F2A0173B400A001B3 /* Home.swift in Sources */,
 				3B5831302A01738100A001B3 /* DogBreedsImagesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +341,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhavanireddy.DogBreedsImages;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DogBreedsImages;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +370,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhavanireddy.DogBreedsImages;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DogBreedsImages;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B58314E2A01860B00A001B3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B58314F2A01860C00A001B3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B58314E2A01860B00A001B3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B5831242A01738100A001B3 /* Project object */;
 }

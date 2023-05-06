@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var dogBreedModel =  DogViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Home()
+            .environmentObject(dogBreedModel)
+        //Using it as environmental variable
+
     }
 }
 
