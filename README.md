@@ -3,7 +3,9 @@
 <div align="center">
   <h1>Dog Breeds Images App</h1>
   <p>An elegant iOS app built with SwiftUI that showcases a captivating collection of dog breeds through an immersive card carousel experience.</p>
-  <img src="![dogProjectSS](https://github.com/BhavaniReddyAndem/Carousel-Slider/assets/131194595/f2ce5953-8772-4378-8ea7-43ffc0f58ef8)" alt="Project Screenshot" width="600">
+  <img src="src="Screenshots/ss1.png"" alt="Project Screenshot" width="600">
+  <img src="src="Screenshots/ss2.png"" alt="Project Screenshot" width="600">
+
 </div>
 
 
